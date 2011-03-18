@@ -1,4 +1,4 @@
-
+package without_error;
 import math.geom2d.Point2D;
 
 

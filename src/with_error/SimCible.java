@@ -1,3 +1,4 @@
+package without_error;
 import math.geom2d.Point2D;
 
 
@@ -83,7 +84,6 @@ public class SimCible {
 			//générate new coordonée
 		direction = Math.random()*2*Math.PI; //in radian
 		distance = vitesse * frequence_dacq;
-		System.out.println(""+distance);
 		dx = Math.cos(direction)*distance;
 		dy = Math.sin(direction)*distance;
 		
